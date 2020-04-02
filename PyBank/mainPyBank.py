@@ -4,7 +4,7 @@ import csv
 
 data = os.getcwd()
 
-filepath = os.path.join( data,'budget_data.csv')
+filepath = os.path.join( data,'./budget_data.csv')
 
 
 count = 0; total = 0; initialValue = 0; diff = 0; profitMax = 0; profitMin = 0
