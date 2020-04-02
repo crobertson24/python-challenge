@@ -2,7 +2,7 @@ import os
 import csv
 
 data = os.getcwd()
-filepath = os.path.join( data,'election_data.csv')
+filepath = os.path.join( data,'./election_data.csv')
 
 totalCount = 0; kCount = 0; cCount = 0; lCount = 0; oCount = 0; maxVoteCount = 0
 
